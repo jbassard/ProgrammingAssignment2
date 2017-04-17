@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {     ## creates the specific matrix
         get <- function() x                     
         setInverse <- function(solve) inverse <<- solve  ## "solve" returns the inverse of the matrix
         getInverse <- function () inverse       
-        list (set = set, get = get, setInverse = setInverse, getInverse = getInverse) ## list containing a function to set and get the value of the specific matrix and set ant get the value of its inverse
+        list (set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }        
 
 
